@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../IMG/tissue.png" />
+
+    <title>Sign In / Sign Up Page for Titan Issue Tracker</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../CSS/Sign In.css" rel="stylesheet">
+</head>
+
+
+
+<!--NavBar-->
+
+<body class="text-center">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="../IMG/tissue.png" style="width:50px;height:50px"
+                        alt="" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggler"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navToggler">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Home Page</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="index.html">Home Page</a>
+                                <a class="dropdown-item" href="index.html">Products</a>
+                                <a class="dropdown-item" href="index.html">Downloads</a>
+                                <a class="dropdown-item" href="index.html">About</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../HTML/Issues.html">Display Issues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../HTML/create_issue.html">Create Issue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../HTML/close_issue.html">Close Issue</a>
+                        </li>
+                    </ul>
+                    <li class="nav-link">
+                        <a class="nav-link btn-outline-success" href="../HTML/registration.html">Sign Up</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link btn-outline-success" href="../HTML/signIn.html">Sign In</a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--End of NavBar-->
+
+
+
+    <form action="Issues.html" method="post" id="regForm" class="form-signin">
+        <img class="mb-4" src="../IMG/tissue.png" alt="" width="72" height="72">
+        <h1 class="h4 mb-3 font-weight-normal">Please Sign up</h1>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <label for="confirmInputPassword" class="sr-only">Confirm Password</label>
+        <input type="password" id="confirmInputPassword" class="form-control" placeholder="Confirm Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="regFormSubmit">Submit</button>
+        <p class="mt-5 mb-3 text-muted">&copy; Titan Issue Tracker 2019</p>
+    </form>
+    <!--
+      Bootstrap core JavaScript
+      ==================================================
+    -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/popover.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="../JS/main.js"></script>
+    <script src="../JS/registration.js"></script>
+    <script src="../JS/userStore.js"></script>
+    <script src="../JS/signIn.js"></script>
+    <script src="../JS/IssueStore.js"></script>
+    <script src="../JS/issue.js"></script>
+
+</body>
+
+
+</html>
